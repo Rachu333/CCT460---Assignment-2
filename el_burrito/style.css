@@ -53,10 +53,17 @@ html {
 	-ms-text-size-adjust:     100%;
 }
 
-body {
-	margin: 0;
-}
-
+body 	{
+	line-height: 1.2em;
+	color: blue;
+	font-size: 20px;
+	font-family: Tahoma
+	background-color: yellow;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	}
+	
 article,
 aside,
 details,
@@ -277,17 +284,26 @@ textarea {
 	line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	clear: both;
-}
+h1
+	{font-family: "Times New Roman";
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 2em;
+	}
+	
+h2, h3
+	{color: #4B0082;
+	font-family: Tahoma;
+	letter-spacing: 1px;
+	line-height: 1.8em;
+	margin-bottom: 7px;
+	font-size: 22px;
+	line-height: 1.2em;
+	text-decoration: underline;
 
 p {
-	margin-bottom: 1.5em;
+	margin-bottom: 2em;
 }
 
 dfn,
