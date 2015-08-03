@@ -4,7 +4,6 @@
  *
  * @package el_burrito
  */
- 
 
 if ( ! function_exists( 'el_burrito_setup' ) ) :
 /**
