@@ -69,7 +69,7 @@ menu,
 nav,
 section,
 summary {
-	display: float center;
+	display:center;
 }
 
 audio,
