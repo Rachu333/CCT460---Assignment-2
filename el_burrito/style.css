@@ -48,17 +48,17 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: Helvetica, Tahoma,sans-serif;
+	font-family: Helvetica, Tahoma, sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
 
 body {
 	line-height: 1.2em;
-	color: blue;
+	color: white;
 	font-size: 20px;
 	font-family: Tahoma;
-	background-color: yellow;
+	background-color: #FF6347;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -75,16 +75,17 @@ main,
 menu,
 nav,
 section,
-summary {
+summary 
+	{
 	display:center;
-}
+	}
 
 audio,
 canvas,
 progress,
 video {
 	display: inline-block;
-	vertical-align: baseline;
+	vertical-align: text-top;
 }
 
 audio:not([controls]) {
@@ -98,7 +99,8 @@ template {
 }
 
 a {
-	background-color: transparent;
+	background-color: #00CC66;
+	color: #FFFFFF;
 }
 
 a:active,
