@@ -58,7 +58,7 @@ body {
 	color: white;
 	font-size: 20px;
 	font-family: Tahoma;
-	background: url('http://www.cafecassis.co.uk/assets/img/uploads/glasses.jpg');
+	background-color: #FF6347;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -99,18 +99,19 @@ template {
 }
 
 a {
-	background-color: #FFF0F5;
+	background-color: #00CC66;
 	color: #FFFFFF;
+<<<<<<< HEAD
 }
 
 /* unvisited link */
 a:link {
-    color: #000000;
+    color: #FF0000;
 }
 
 /* visited link */
 a:visited {
-    color: #FFF8DC;
+    color: #00FF00;
 }
 
 /* mouse over link */
@@ -338,7 +339,7 @@ h2, h3
 	letter-spacing: 1px;
 	line-height: 1.8em;
 	margin-bottom: 7px;
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 1.2em;
 	text-decoration: underline;
 	
@@ -577,10 +578,11 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	clear: both;
 	display: block;
-	float: left;
+	float: center;
 	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 60px;
 }
 
 .main-navigation ul {
@@ -657,7 +659,7 @@ a:active {
 
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
-		display: none;
+		display: block;
 	}
 	.main-navigation ul {
 		display: block;
