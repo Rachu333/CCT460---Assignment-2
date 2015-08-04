@@ -58,7 +58,7 @@ body {
 	color: white;
 	font-size: 20px;
 	font-family: Tahoma;
-	background-color: #FF6347;
+	background: url('http://www.cafecassis.co.uk/assets/img/uploads/glasses.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -99,19 +99,18 @@ template {
 }
 
 a {
-	background-color: #00CC66;
+	background-color: #FFF0F5;
 	color: #FFFFFF;
-<<<<<<< HEAD
 }
 
 /* unvisited link */
 a:link {
-    color: #FF0000;
+    color: #000000;
 }
 
 /* visited link */
 a:visited {
-    color: #00FF00;
+    color: #FFF8DC;
 }
 
 /* mouse over link */
@@ -339,7 +338,7 @@ h2, h3
 	letter-spacing: 1px;
 	line-height: 1.8em;
 	margin-bottom: 7px;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 1.2em;
 	text-decoration: underline;
 	
