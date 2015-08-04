@@ -62,6 +62,8 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
+	height: 100.0%;
+	width: 100.0%;
 	}
 
 article,
