@@ -9,10 +9,11 @@
  *
  * @package el_burrito
  */
+ 
+wp_nav_menu( array( 'el_burrito' => 'extra-menu', 'container_class' => 'my_extra_menu_class' ) ); 
+ get_header(); ?>
 
-get_header(); ?>
 
-<?wp_nav_menu( array( 'el_burrito' => 'extra-menu', 'container_class' => 'my_extra_menu_class' ) ); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

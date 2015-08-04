@@ -22,6 +22,16 @@ function el_burrito_setup() {
 	 */
 	load_theme_textdomain( 'el_burrito', get_template_directory() . '/languages' );
 
+	// This theme uses wp_nav_menu() in one location.
+	register_nav_menus( array(
+		'primary' => esc_html__( 'Primary Menu', 'el_burrito' ),
+	) );
+
+	/*
+	 * Switch default core markup for search form, comment form, and comments
+	 * to output valid HTML5.
+	 */
+	 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
@@ -40,7 +50,7 @@ function el_burrito_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 	
-	function register_my_menu() {
+	/*function register_my_menu() {
   register_nav_menu('header-menu',__( 'Header Menu' ));
 }
 add_action( 'init', 'register_my_menu' );
@@ -54,17 +64,9 @@ function register_my_menus() {
   );
 }
 add_action( 'init', 'register_my_menus' );
+*/
 
 
-	/*This theme uses wp_nav_menu() in one location.
-	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary Menu', 'el_burrito' ),
-	) );
-
-	/*
-	 * Switch default core markup for search form, comment form, and comments
-	 * to output valid HTML5.
-	 */
 	 
 	add_theme_support( 'html5', array(
 		'search-form',
