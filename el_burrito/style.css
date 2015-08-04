@@ -58,7 +58,7 @@ body {
 	color: white;
 	font-size: 20px;
 	font-family: Tahoma;
-	background-color: #FF6347;
+	background-color: #990000;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -99,40 +99,14 @@ template {
 }
 
 a {
-	background-color: #00CC66;
+	background-color: #33CC33;
 	color: #FFFFFF;
 <<<<<<< HEAD
 }
 
-/* unvisited link */
-a:link {
-    color: #FF0000;
-}
-
-/* visited link */
-a:visited {
-    color: #00FF00;
-}
-
 /* mouse over link */
 a:hover {
-    color: #7CFC00;
-}
-
-
-/* unvisited link */
-a:link {
-    color: #FF0000;
-}
-
-/* visited link */
-a:visited {
-    color: #00FF00;
-}
-
-/* mouse over link */
-a:hover {
-    color: #7CFC00;
+    color: #191919;
 }
 
 /* selected link */
