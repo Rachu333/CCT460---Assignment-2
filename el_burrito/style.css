@@ -101,6 +101,7 @@ template {
 a {
 	background-color: #00CC66;
 	color: #FFFFFF;
+<<<<<<< HEAD
 }
 
 /* unvisited link */
@@ -116,6 +117,29 @@ a:visited {
 /* mouse over link */
 a:hover {
     color: #7CFC00;
+=======
+}
+
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #7CFC00;
+}
+
+/* selected link */
+a:active {
+    color: #7CFC00;
+>>>>>>> origin/master
 }
 
 /* selected link */
@@ -191,7 +215,7 @@ code,
 kbd,
 pre,
 samp {
-	font-family: monospace, monospace;
+	font-family: "Times";
 	font-size: 1em;
 }
 
