@@ -58,7 +58,7 @@ body {
 	color: white;
 	font-size: 20px;
 	font-family: Tahoma;
-	background-color: #FF6347;
+	background-color: #990000;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -104,6 +104,9 @@ a {
 	background-color: #33CC33;
 	color: #FFFFFF;
 <<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
 }
 
 /* mouse over link */
@@ -116,9 +119,12 @@ a:active {
     color: #7CFC00;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> origin/master
 abbr[title] {
 	border-bottom: 1px dotted;
 }
