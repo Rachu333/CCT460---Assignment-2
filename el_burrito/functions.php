@@ -39,9 +39,9 @@ function el_burrito_setup() {
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
-
-wp_nav_menu( array( 'theme_location' => 'header-menu' ) );
-	function register_my_menus() {
+	
+	// Menu
+function register_my_menus() {
   register_nav_menus(
     array(
       'header-menu' => __( 'Header Menu' ),
@@ -50,8 +50,6 @@ wp_nav_menu( array( 'theme_location' => 'header-menu' ) );
   );
 }
 add_action( 'init', 'register_my_menus' );
-
- 
 
 	/* This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -62,6 +60,7 @@ add_action( 'init', 'register_my_menus' );
 	 * Switch default core markup for search form, comment form, and comments
 	 * to output valid HTML5.
 	 */
+	 
 	add_theme_support( 'html5', array(
 		'search-form',
 		'comment-form',
@@ -165,3 +164,4 @@ require get_template_directory() . '/inc/jetpack.php';
 /* Call the file that controls the theme options 
 */
 require	get_stylesheet_directory() .'/inc/options.php';
+?>
