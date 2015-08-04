@@ -18,13 +18,7 @@ get_header(); ?>
 
 		
 	
-		
-				
-		
-				
-					
-
-			<?php endwhile; ?>
+	<?php endwhile; ?>
 
 			<?php the_posts_navigation(); ?>
 
