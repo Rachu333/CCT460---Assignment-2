@@ -77,7 +77,7 @@ nav,
 section,
 summary 
 	{
-	display:center;
+	display:inline-block;
 	}
 
 audio,
