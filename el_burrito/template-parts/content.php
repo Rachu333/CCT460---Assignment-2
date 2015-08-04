@@ -39,3 +39,16 @@
 		<?php el_burrito_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+
+<?php
+$text = get_option(‘cd_options_settings’);
+echo $text[‘cd_text_field’];
+echo '<br/>';
+echo $text[‘cd_checkbox_field’];
+echo '<br />';
+echo $text[‘cd_radio_field’];
+echo '<br />';
+echo $text[‘cd_select_field’];
+echo '<br />';
+echo $text[‘cd_textarea_field’];
+?>
