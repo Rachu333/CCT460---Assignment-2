@@ -16,7 +16,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?> 
-
+<?php wp_nav_menu( array( 'el_burrito' => 'header-menu' ) ); ?>
 
 </head>
 

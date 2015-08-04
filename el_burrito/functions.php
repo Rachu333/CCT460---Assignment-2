@@ -40,9 +40,23 @@ function el_burrito_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 	
-	
+	function register_my_menu() {
+  register_nav_menu('header-menu',__( 'Header Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
 
-	// This theme uses wp_nav_menu() in one location.
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'header-menu' => __( 'Header Menu' ),
+      'extra-menu' => __( 'Extra Menu' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
+
+
+	/*This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'el_burrito' ),
 	) );
