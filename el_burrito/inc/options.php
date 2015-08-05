@@ -150,10 +150,8 @@ echo '<br />';
 echo $text[‘cd_select_field’];
 echo '<br />';
 echo $text[‘cd_textarea_field’];
-
+}
 ?>
 	<?php
-	}
-	
 	add_action( 'admin_init', 'cd_settings_init' );	
 ?>
