@@ -869,3 +869,25 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+footer
+	{max-width:100%;
+	margin: auto;
+	float: right;
+	}
+
+p
+	{color: white;
+	}
+
+.entry-header h1
+	{font-family: "Times";
+	color: yellow;
+	}
+
+.entry-content p
+	{line-height: 1.2em;
+	font-size: 1.5em;
+	}
+
