@@ -62,8 +62,12 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	height: 100.0%;
+<<<<<<< HEAD
 	background: url('https://farm9.staticflickr.com/8348/8244252264_203b07f433_b.jpg');
 	opacity: 0.9;
+=======
+	background: url("https://flic.kr/p/dyvWYq");
+>>>>>>> origin/master
 	width: 100.0%;
 	}
 
@@ -927,7 +931,11 @@ p
 	margin-left: 30px;
 	}
 
+<<<<<<< HEAD
 #page
+=======
+#pagea
+>>>>>>> origin/master
     {background-color: #000F1F;
     margin: auto;
     padding: 2px;
