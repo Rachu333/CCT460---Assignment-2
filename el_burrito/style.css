@@ -584,15 +584,15 @@ textarea {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+	display: inline;
 }
 
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
-		display: block;
+		display: inline;
 	}
 	.main-navigation ul {
-		display: block;
+		display: inline;
 	}
 }
 
