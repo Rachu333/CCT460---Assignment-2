@@ -511,7 +511,7 @@ textarea {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	display: block;
+	display: inline;
 	float: center;
 	width: 100%;
 	margin-top: 10px;
