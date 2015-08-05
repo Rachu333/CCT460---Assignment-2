@@ -99,6 +99,14 @@ a {
 	color: #FFFFFF;
 }
 
+a:visted 
+{color:yellow; 
+}
+
+a 
+{color: orange;
+}
+
 abbr[title] {
 	border-bottom: 1px dotted;
 }
