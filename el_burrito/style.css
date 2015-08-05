@@ -63,7 +63,7 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	height: 100.0%;
-	background: url("https://flic.kr/p/dyvWYq');
+	background: url("https://flic.kr/p/dyvWYq");
 	width: 100.0%;
 	}
 
@@ -89,7 +89,7 @@ nav
 
 .entry-content
 	{
-	background:#009933;
+	background:#006699;
 	border: 3px solid black;
 	padding: 15px;
 	color: #FFFFFF;
@@ -101,8 +101,7 @@ template {
 }
 
 a {
-	background-color: #33CC33;
-	color: #FFFFFF;
+	color: #ABABAB;
 }
 
 a:visted 
@@ -281,7 +280,7 @@ button,
 input,
 select,
 textarea {
-	color: #008000;
+	color: #006699;
 	font-size: 16px;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -906,7 +905,7 @@ p
 
 .entry-header h1
 	{font-family: "Times";
-	color: #D2691E;
+	color: #66CCFF;
 	}
 
 .entry-content p
@@ -920,7 +919,7 @@ p
 	line-height: 1.5em;
 	}
 
-#page
+#pagea
     {background-color: #000F1F;
     margin: auto;
     padding: 2px;
