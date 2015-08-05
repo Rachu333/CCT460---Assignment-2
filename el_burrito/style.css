@@ -100,11 +100,7 @@ a {
 }
 
 a:visted 
-{color:yellow; 
-}
-
-a 
-{color: orange;
+{color: #00008B; 
 }
 
 abbr[title] {
