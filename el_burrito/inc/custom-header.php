@@ -4,9 +4,9 @@
  * http://codex.wordpress.org/Custom_Headers
  *
  * You can add an optional custom header image to header.php like so ...
- *
+ **/
 	<?php if ( get_header_image() ) : ?>
-	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+	<a href="<?php echo esc_url( home_url( 'images/mexican1.png' ) ); ?>" rel="home">
 		<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
 	</a>
 	<?php endif; // End header image check. ?>
@@ -114,7 +114,7 @@ function el_burrito_admin_header_image() {
 ?>
 	<div id="headimg">
 		<h1 class="displaying-header-text">
-			<a id="name" style="<?php echo esc_attr( 'color: #' . get_header_textcolor() ); ?>" onclick="return false;" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+			<a id="name" style="<?php echo esc_attr( 'color: #' . get_header_textcolor() ); ?>" onclick="return false;" href="<?php echo esc_url( home_url( 'images/mexican1.png' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 		</h1>
 		<div class="displaying-header-text" id="desc" style="<?php echo esc_attr( 'color: #' . get_header_textcolor() ); ?>"><?php bloginfo( 'description' ); ?></div>
 		<?php if ( get_header_image() ) : ?>
