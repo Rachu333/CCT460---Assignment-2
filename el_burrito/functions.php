@@ -28,6 +28,7 @@ function el_burrito_setup() {
 	
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'el_burrito' ),
+		'extra' => esc_html__('Extra Menu', 'el_burrito'),
 	) );
 
 	/*

@@ -1,7 +1,7 @@
 /*
 Theme Name: el_burrito
 Theme URI: http://underscores.me/
-Author: Underscores.me
+Author: Isha Thaker, Alistair D'Cruz, Rachana Sai
 Author URI: http://underscores.me/
 Description: Description
 Version: 1.0.0
@@ -72,7 +72,6 @@ details,
 figcaption,
 figure,
 footer,
-header,
 main,
 menu,
 nav,
@@ -81,11 +80,16 @@ summary
 	{
 	display:inline-block;
 	}
-
+	
+header
+	{
+	font-size: 18px;
+	}
+	
 .entry-content
 	{
 	background:#009933;
-	border: 3px solid Black;
+	border: 3px solid black;
 	padding: 15px;
 	}
 
@@ -97,15 +101,14 @@ template {
 a {
 	background-color: #33CC33;
 	color: #FFFFFF;
-
-/* mouse over link */
-a:hover {
-    color: #191919;
 }
 
-/* selected link */
-a:active {
-    color: #7CFC00;
+a:visted 
+{color:yellow; 
+}
+
+a 
+{color: orange;
 }
 
 abbr[title] {
@@ -283,7 +286,7 @@ textarea {
 	color: #008000;
 	font-size: 16px;
 	font-size: 1em;
-	line-height: 1.5;
+	line-height: 1.5em;
 }
 
 h1
@@ -304,10 +307,6 @@ h2, h3
 	line-height: 1.2em;
 	text-decoration: underline;
 	
-p {
-	margin-bottom: 1.5em;
-}
-
 dfn,
 cite,
 em,
@@ -511,7 +510,7 @@ textarea {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	display: block;
+	display: inline;
 	float: center;
 	width: 100%;
 	margin-top: 10px;
@@ -584,15 +583,15 @@ textarea {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+	display: inline;
 }
 
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
-		display: block;
+		display: inline;
 	}
 	.main-navigation ul {
-		display: block;
+		display: inline;
 	}
 }
 
@@ -869,3 +868,32 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+footer
+	{max-width:100%;
+	margin: auto;
+	float: right;
+	}
+
+p
+	{color: white;
+	margin-bottom: 1.5em;
+	}
+
+.entry-header h1
+	{font-family: "Times";
+	color: yellow;
+	}
+
+.entry-content p
+	{line-height: 1.2em;
+	font-size: 1.5em;
+	}
+
+.site-title a
+	{font-size: 22px;
+	color: white;
+	line-height: 1.5em;
+	}
+
