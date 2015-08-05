@@ -82,22 +82,6 @@ summary
 	display:inline-block;
 	}
 
-audio,
-canvas,
-progress,
-video {
-	display: inline-block;
-	vertical-align: text-top;
-}
-
-audio:not([controls]) {
-	display: none;
-	height: 0;
-}
-
-<<<<<<< HEAD
-
-
 =======
 .entry-content
 	{
@@ -537,34 +521,6 @@ textarea {
 	width: 100%;
 }
 
-/*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-## Links
---------------------------------------------------------------*/
-a {
-	color: royalblue;
-}
-
-a:visited {
-	color: purple;
-}
-
-a:hover,
-a:focus,
-a:active {
-	color: midnightblue;
-}
-
-a:focus {
-	outline: thin dotted;
-}
-
-a:hover,
-a:active {
-	outline: 0;
-}
 
 /*--------------------------------------------------------------
 ## Menus
@@ -612,9 +568,6 @@ a:active {
 	width: 200px;
 }
 
-.main-navigation ul ul li {
-
-}
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
