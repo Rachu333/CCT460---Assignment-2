@@ -74,21 +74,24 @@ figure,
 footer,
 header,
 main,
-menu,
-nav,
 section,
-summary 
+summary,
+menu,
+nav
 	{
 	display:inline-block;
+	position: relative;
 	max-width: 100.0% /* responsive part of the code */
 	}
+	
+
 
 .entry-content
 	{
 	background:#009933;
 	border: 3px solid black;
 	padding: 15px;
-	color: #9932CC;
+	color: #FFFFFF;
 	}
 
 [hidden],
@@ -503,8 +506,17 @@ textarea {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-.main-navigation {
+
+.site-navigation
+	{background-color:yellow;
+	line-height:25px;
+	min-height:20px;
+	width:100%;
+	}
+
+.main-navigation	.menu {
 	display: inline-block;
+	text-align: center;
 	float: center;
 	width: 100%;
 	margin-top: 10px;
@@ -514,21 +526,24 @@ textarea {
 .main-navigation ul {
 	display: inline-block;
 	list-style: none;
-	margin: 0;
+	margin: 0 auto;
 	padding-left: 0;
+	text-align: center;
+	width: 100%;
 }
 
 .main-navigation li {
 	float: left;
 	position: relative;
+	padding: 8px;
 }
 
 .main-navigation a {
 	color: black; 
 	display:inline-block; 
-	font-family: "Times"; 
+	font-family: "Times", sans-serif; 
 	font-size: 24px; 
-	font-weight: 10px; 
+	font-weight: 400;
 	letter-spacing: 1px; 
 	text-decoration: none; 
 	text-transform: uppercase; 
@@ -626,7 +641,7 @@ textarea {
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
-/* Text meant only for screen readers. */
+/* Text meant only for screen readers. 
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
 	position: absolute !important;
@@ -746,6 +761,7 @@ textarea {
 .page-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+	max-width: 100.%; /*responsive part of the code */
 }
 
 .page-links {
@@ -889,7 +905,7 @@ p
 
 .entry-header h1
 	{font-family: "Times";
-	color: yellow;
+	color: #D2691E;
 	}
 
 .entry-content p
@@ -897,8 +913,8 @@ p
 	font-size: 1.5em;
 	}
 
-.site-title a
-	{font-size: 22px;
+.site-title 
+	{font-size: 40px;
 	color: white;
 	line-height: 1.5em;
 	}
@@ -907,10 +923,12 @@ p
     {background-color: #F0E68C;
     margin: auto;
     padding: 2px;
-    width: 860px;
+    width: 860px; /*responsive part of the code */
+	max-width: 100.0%; /* responsive part of the code */
     border: 2px solid #000;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    padding: 30px 50px 50px 50px;
-}
+    padding: 30px 50px 50px 50px
+	display: inline;
+	}
 
