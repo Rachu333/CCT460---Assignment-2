@@ -95,13 +95,17 @@ audio:not([controls]) {
 	height: 0;
 }
 
+<<<<<<< HEAD
 
-.entry-content 
-	{ 
-	background:#009933; 
-	border: 3px solid Black; 
-	padding: 15px; 
-	} 
+
+=======
+.entry-content
+	{
+	background:#009933;
+	border: 3px solid Black;
+	padding: 15px;
+	}
+>>>>>>> origin/master
 
 [hidden],
 template {
