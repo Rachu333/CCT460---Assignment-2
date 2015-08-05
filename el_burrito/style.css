@@ -95,6 +95,13 @@ audio:not([controls]) {
 	height: 0;
 }
 
+.entry-content
+	{
+	background:#009933;
+	border: 3px solid Black;
+	padding: 15px;
+	}
+
 [hidden],
 template {
 	display: none;
