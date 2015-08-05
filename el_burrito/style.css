@@ -58,7 +58,7 @@ body {
 	color: white;
 	font-size: 20px;
 	font-family: Tahoma;
-	background-color: #990000;
+	background-color: #191919;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -72,6 +72,7 @@ details,
 figcaption,
 figure,
 footer,
+header,
 main,
 menu,
 nav,
@@ -80,17 +81,13 @@ summary
 	{
 	display:inline-block;
 	}
-	
-header
-	{
-	font-size: 18px;
-	}
-	
+
 .entry-content
 	{
 	background:#009933;
 	border: 3px solid black;
 	padding: 15px;
+	color: #9932CC;
 	}
 
 [hidden],
@@ -104,11 +101,7 @@ a {
 }
 
 a:visted 
-{color:yellow; 
-}
-
-a 
-{color: orange;
+{color: #00008B; 
 }
 
 abbr[title] {
@@ -530,8 +523,16 @@ textarea {
 }
 
 .main-navigation a {
-	display: block;
-	text-decoration: none;
+	{color: black; 
+	display:block; 
+	font-family: "Times"; 
+	font-size: 24px; 
+	font-weight: 10px; 
+	letter-spacing: 1px; 
+	text-decoration: none; 
+	text-transform: uppercase; 
+	padding: 2px 4px solid black; 
+	border-radius: 20px; 
 }
 
 .main-navigation ul ul {
