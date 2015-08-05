@@ -13,6 +13,8 @@ if ( ! function_exists( 'el_burrito_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+
+
 function el_burrito_setup() {
 	/*
 	 * Make theme available for translation.
@@ -23,6 +25,7 @@ function el_burrito_setup() {
 	load_theme_textdomain( 'el_burrito', get_template_directory() . '/languages' );
 
 	// This theme uses wp_nav_menu() in one location.
+	
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'el_burrito' ),
 	) );
