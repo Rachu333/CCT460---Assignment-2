@@ -58,11 +58,12 @@ body {
 	color: white;
 	font-size: 20px;
 	font-family: Tahoma;
-	background-color: #800000;
+	background-color: #333333;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	height: 100.0%;
+	background: url("https://flic.kr/p/dyvWYq');
 	width: 100.0%;
 	}
 
