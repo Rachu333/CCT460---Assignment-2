@@ -15,6 +15,10 @@ if ( ! function_exists( 'el_burrito_setup' ) ) :
  */
 
 
+if ( ! isset( $content_width ) ) {
+	$content_width = 600; /* pixels */
+}
+
 function el_burrito_setup() {
 	/*
 	 * Make theme available for translation.
