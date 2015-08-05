@@ -85,7 +85,7 @@ summary
 .entry-content
 	{
 	background:#009933;
-	border: 3px solid Black;
+	border: 3px solid black;
 	padding: 15px;
 	}
 
@@ -97,15 +97,6 @@ template {
 a {
 	background-color: #33CC33;
 	color: #FFFFFF;
-
-/* mouse over link */
-a:hover {
-    color: #191919;
-}
-
-/* selected link */
-a:active {
-    color: #7CFC00;
 }
 
 abbr[title] {
@@ -283,7 +274,7 @@ textarea {
 	color: #008000;
 	font-size: 16px;
 	font-size: 1em;
-	line-height: 1.5;
+	line-height: 1.5em;
 }
 
 h1
@@ -304,10 +295,6 @@ h2, h3
 	line-height: 1.2em;
 	text-decoration: underline;
 	
-p {
-	margin-bottom: 1.5em;
-}
-
 dfn,
 cite,
 em,
@@ -879,6 +866,7 @@ footer
 
 p
 	{color: white;
+	margin-bottom: 1.5em;
 	}
 
 .entry-header h1
