@@ -14,13 +14,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+</head>
 <?php wp_head(); ?> 
-<?php if ( get_header_image() ) : ?>
-	<a href="<?php echo esc_url( home_url( 'images/header.jpg' ) ); ?>" rel="home">
-		<img src="<?php header_image(); ?>" width="900"<?php echo esc_attr( get_custom_header()->width ); ?>" height="200"<?php echo esc_attr( get_custom_header()->height ); ?> alt="">
-	</a>
-	<?php endif; // End header image check. ?>
+ 
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">

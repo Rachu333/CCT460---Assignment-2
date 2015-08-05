@@ -58,12 +58,12 @@ body {
 	color: white;
 	font-size: 20px;
 	font-family: Tahoma;
-	background-color: #333333;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	height: 100.0%;
-	background: url("https://flic.kr/p/dyvWYq');
+	background: url('https://farm9.staticflickr.com/8348/8244252264_203b07f433_b.jpg');
+	opacity: 0.9;
 	width: 100.0%;
 	}
 
@@ -89,7 +89,7 @@ nav
 
 .entry-content
 	{
-	background:#009933;
+	background:#006699;
 	border: 3px solid black;
 	padding: 15px;
 	color: #FFFFFF;
@@ -101,8 +101,7 @@ template {
 }
 
 a {
-	background-color: #33CC33;
-	color: #FFFFFF;
+	color: #ABABAB;
 }
 
 a:visted 
@@ -281,7 +280,7 @@ button,
 input,
 select,
 textarea {
-	color: #008000;
+	color: #006699;
 	font-size: 16px;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -906,7 +905,7 @@ p
 
 .entry-header h1
 	{font-family: "Times";
-	color: #D2691E;
+	color: #66CCFF;
 	}
 
 .entry-content p
@@ -915,13 +914,21 @@ p
 	}
 
 .site-title 
-	{font-size: 40px;
+	{font-size: 80px;
+	font-family: Century Gothic;
+	margin-bottom: 20px;
+	width: 800px;
+	margin-top: 15px;
 	color: white;
+	text-transform: uppercase;
+	text-align: center;
 	line-height: 1.5em;
+	float: center;
+	margin-left: 30px;
 	}
 
 #page
-    {background-color: #F0E68C;
+    {background-color: #000F1F;
     margin: auto;
     padding: 2px;
     width: 860px; /*responsive part of the code */
@@ -932,4 +939,3 @@ p
     padding: 30px 50px 50px 50px
 	display: inline;
 	}
-

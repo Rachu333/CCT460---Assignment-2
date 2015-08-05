@@ -14,6 +14,7 @@ if ( ! function_exists( 'el_burrito_setup' ) ) :
  * as indicating support for post thumbnails.
  */
 
+// This sets up the theme content width to make it a responsive site.
 
 if ( ! isset( $content_width ) ) {
 	$content_width = 600; /* pixels */
@@ -28,7 +29,7 @@ function el_burrito_setup() {
 	 */
 	load_theme_textdomain( 'el_burrito', get_template_directory() . '/languages' );
 
-	// This theme uses wp_nav_menu() in one location.
+	/* This theme uses wp_nav_menu() in one location.
 	
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'el_burrito' ),
@@ -58,24 +59,7 @@ function el_burrito_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 	
-	/*function register_my_menu() {
-  register_nav_menu('header-menu',__( 'Header Menu' ));
-}
-add_action( 'init', 'register_my_menu' );
-
-function register_my_menus() {
-  register_nav_menus(
-    array(
-      'header-menu' => __( 'Header Menu' ),
-      'extra-menu' => __( 'Extra Menu' )
-    )
-  );
-}
-add_action( 'init', 'register_my_menus' );
-*/
-
-
-	 
+	
 	add_theme_support( 'html5', array(
 		'search-form',
 		'comment-form',

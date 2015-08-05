@@ -8,10 +8,8 @@
 **/
 /*
 **/	
-	<?php if ( get_header_image() ) : ?>
-	<a href="<?php echo esc_url( home_url( 'images/header.jpg' ) ); ?>" rel="home">
-=======
- **/
+	
+/**
 	<?php if ( get_header_image() ) : ?>
 	<a href="<?php echo esc_url( home_url( 'images/mexican1.png' ) ); ?>" rel="home">
 >>>>>>> origin/master
