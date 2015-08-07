@@ -62,12 +62,8 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	height: 100.0%;
-<<<<<<< HEAD
 	background: url('https://farm9.staticflickr.com/8348/8244252264_203b07f433_b.jpg');
 	opacity: 0.9;
-=======
-	background: url("https://flic.kr/p/dyvWYq");
->>>>>>> origin/master
 	width: 100.0%;
 	}
 
@@ -89,8 +85,6 @@ nav
 	max-width: 100.0% /* responsive part of the code */
 	}
 	
-
-
 .entry-content
 	{
 	background:#006699;
@@ -299,7 +293,7 @@ h1
 	}
 	
 h2, h3
-	{color: #4B0082;
+	{color: #3366CC;
 	font-family: Tahoma;
 	letter-spacing: 1px;
 	line-height: 1.8em;
@@ -516,8 +510,20 @@ textarea {
 	line-height:25px;
 	min-height:20px;
 	width:100%;
+	display: inline;
 	}
 
+.main-navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	}
+	
+#site-navigation li {
+    display: inline;
+}
+	
 .main-navigation	.menu {
 	display: inline-block;
 	text-align: center;
@@ -542,6 +548,10 @@ textarea {
 	padding: 8px;
 }
 
+.site-navigation li {
+	display: block;
+}
+
 .main-navigation a {
 	color: black; 
 	display:inline-block; 
@@ -553,6 +563,7 @@ textarea {
 	text-transform: uppercase; 
 	padding: 2px 4px solid black; 
 	border-radius: 20px; 
+	display: inline;
 }
 
 .main-navigation ul ul {
@@ -563,7 +574,6 @@ textarea {
 	left: -999em;
 	z-index: 99999;
 }
-
 .main-navigation ul ul ul {
 	left: -999em;
 	top: 0;
@@ -903,7 +913,7 @@ footer
 	}
 
 p
-	{color: white;
+	{color: #fff;
 	margin-bottom: 1.5em;
 	}
 
@@ -911,7 +921,6 @@ p
 	{font-family: "Times";
 	color: #66CCFF;
 	}
-
 
 .entry-content p
 	{line-height: 1.2em;
